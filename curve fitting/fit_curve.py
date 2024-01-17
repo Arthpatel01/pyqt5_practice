@@ -1,3 +1,5 @@
+import json
+
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
@@ -10,6 +12,7 @@ df = pd.read_csv(filename, header=None)
 data = df.values
 
 x, y = data[:, 4], data[:, -1]
+
 
 # plt.scatter(x=x, y=y)
 # plt.show()
@@ -31,3 +34,8 @@ y_line = objective(x_line, a, b)
 
 plt.plot(x_line, y_line, "--", color="red")
 plt.show()
+
+print("Fit Curve Prediction:", objective(123.366, a, b))
+
+with open("curve_param.json", "w") as file:
+    json.dump({"slope": a, "intercept": b}, file)
