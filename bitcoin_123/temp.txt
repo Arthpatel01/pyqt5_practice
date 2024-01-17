@@ -1,0 +1,3 @@
+Wallet Name: jack_black_patel
+Address: 1BZPFTKiqDVpLztZTw1RnsFsuUKVdr8Kdm
+Private Key: xprvA3Xz1MZ7RNNGAtMJGCFooJcKVuwy9gATZkZLJimBNpousnEqxzG3Fnrg8XW5exKSwGLPGox6dmuwwaSSvALSCT1n4jhUVswk6fDBRcXHfrS
