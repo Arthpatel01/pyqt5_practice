@@ -39,3 +39,5 @@ print("Fit Curve Prediction:", objective(123.366, a, b))
 
 with open("curve_param.json", "w") as file:
     json.dump({"slope": a, "intercept": b}, file)
+
+# test change
